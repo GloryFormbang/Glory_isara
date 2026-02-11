@@ -1,0 +1,82 @@
+---
+title: "Cout environnemental de l'usage des Intelligences artificielles : bilan et perspectives "
+author: "NDUMCHOP Glory"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+header-includes:
+  - \usepackage{fancyhdr}
+  - \setlength{\headheight}{90pt}
+  - \addtolength{\topmargin}{-50pt}
+  - \pagestyle{fancy}
+  - \fancyhead[L]{\includegraphics[width=3cm]{logo_isara.jpg}}
+  - \fancyhead[R]{}
+
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: margin=1in
+toc: true
+toc_depth: 3
+
+bibliography: biblio/biblio2.bib
+csl: "biblio/isara-iso-690.csl"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+```
+
+
+\newpage
+
+# **Introduction**
+
+Partout dans le monde, les intelleligences artificielles sont utilisées pour le traitement de données, l’assistance à la prise de décision, la création de contenus ou encore l’optimisation de processus industriels et commerciaux. Avec l’émergence des IA génératives telles que ChatGPT, Copilot ou Gimi, l’adoption a été fulgurante, et actuellement la proportion de la population mondiale qui utilise l'IA est de 16,3%. Toutefois, cette révolution numérique soulève des questions cruciales sur son impact environnemental, souvent sous-estimé. Ce rapport propose d’analyser l’usage mondial de l’IA, son empreinte écologique et les solutions possibles pour un usage responsable.
+
+# Panorama de l'usage IA à travers le monde.
+Historique rapide : apparition des IA génératives et adoption par le grand public.
+
+IA dans le quotidien : usage par les particuliers, étudiants, entreprises.
+
+Statistiques mondiales et européennes : nombre d’utilisateurs, pays les plus concernés, applications les plus populaires.
+
+# Impacts environnementaux de l'usage des IA
+
+```{r impact, echo=FALSE, out.width='80%', fig.align="center", fig.cap="impact"}
+knitr::include_graphics("impact.png")
+```
+
+
+
+# Consommation énergétique
+....
+
+# Consommation en eau
+
+L’impact environnemental des IA ne se limite pas à la consommation énergétique,il inclut également une utilisation importante de l’eau. Des chercheurs de l’Université de Californie ont démontré en 2023 que l'entraînement de GPT-3 dans les centres de données de Microsoft aux États-Unis a conduit à la consommation de près de 700 000 litres d'eau douce et potable. Leur étude montre également que l'IA pourrait être responsable de 4,2 à 6,6 milliards de mètres cubes de prélèvement d'eau en 2027, soit une consommation annuelle d'eau équivalente à quatre ou six fois celle du Danemark, ou la moitié du Royaume-Uni.[Le Goff, 2023]. 
+
+```{r cosommation, echo=FALSE, out.width='80%', fig.align="center", fig.cap="Conso eau"}
+knitr::include_graphics("conso_eau.png")
+```
+
+# Émissions de CO₂
+....
+
+# Autres impacts environnementaux
+Déchets électroniques, exploitation des ressources pour le matériel informatique.
+
+
+# Solutions et Voies d'amélioration
+Quelles sont les débuts de solutions mis en place pour palier à ces pb
+Préconisations : n’utiliser l’IA que quand c’est nécessaire.
+
+# Conclusion
+au vu de toutes ces informations, il apparaît clairement que l’usage des intelligences artificielles et leur impact sur l’environnement constituent un enjeu majeur et prioritaire à l’heure actuelle. Dans un contexte où la pollution et la dégradation des écosystèmes ne cessent d’augmenter, en grande partie en raison des activités humaines, il devient essentiel que chacun prenne conscience de sa responsabilité.. ... 
+
+
+\newpage
+
+# Bibliographie
+ ma bibio ne se génère pas automatiquement. 
+
